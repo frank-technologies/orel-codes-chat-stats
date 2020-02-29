@@ -12,6 +12,7 @@ create table users(
 
 create table links(
 	href varchar(4000) not null,
+	host varchar(1000) not null,
 	txt varchar(4000) not null,
 	message_id integer
 );
