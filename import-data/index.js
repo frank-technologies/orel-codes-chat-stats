@@ -7,8 +7,11 @@ const mariadb = require('mariadb')
 function parseLinks ($, $msg) {
   return $msg.find('.body .text a').map(function () {
     const $a = $(this)
-    const href = $a.attr('href')
-    let host = ''
+    let href = $a.attr('href')
+    if (href.search('http') === -1) {
+      href = 'https://' + href
+    }
+    let host = null
     try {
       host = new URL(href).host
     } catch (e) {}
@@ -43,6 +46,7 @@ function parseMessages (data) {
       text: $el.find('.body .text').text().trim(),
       user: $el.find('.body:not(.forwarded) > .from_name').text().trim(),
       isReply: Boolean($el.find('.body .reply_to').length),
+      isForward: Boolean($el.find('.body .forwarded').length),
       date,
       isJoined: $el.hasClass('joined'),
       links: parseLinks($, $el),
@@ -99,6 +103,7 @@ async function insertMsg (connection, msg, userId) {
       txt,
       user_id,
       is_reply,
+      is_forward,
       dt,
       is_joined,
       stickers_cnt,
@@ -106,12 +111,13 @@ async function insertMsg (connection, msg, userId) {
       video_cnt,
       prev_msg_id
     )
-    values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `, [
     msg.id,
     msg.text,
     userId,
     msg.isReply,
+    msg.isForward,
     msg.date,
     msg.isJoined,
     msg.stickersCnt,
