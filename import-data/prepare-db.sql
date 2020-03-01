@@ -31,10 +31,13 @@ create table messages(
 );
 
 create table links(
+	id integer not null auto_increment,
 	href varchar(4000) not null,
 	host varchar(1000),
 	txt varchar(4000) not null,
 	message_id integer,
+
+	primary key (id),
 	
 	index(message_id),
 	
@@ -44,8 +47,11 @@ create table links(
 );
 
 create table codes(
+	id integer not null auto_increment,
 	code text not null,
 	message_id integer not null,
+
+	primary key (id),
 	
 	index(message_id),
 	

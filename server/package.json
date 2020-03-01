@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "blipp": "^4.0.1",
+    "laabr": "^6.0.2",
+    "mariadb": "^2.2.0",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}

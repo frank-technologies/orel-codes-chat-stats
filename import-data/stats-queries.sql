@@ -13,7 +13,7 @@ left join codes c on c.message_id = m.id
 where u.name != 'Combot'
 group by u.id
 	   , u.name
-order by cnt_codes desc
+order by u.name desc
 ;
 
 select m.user_id
