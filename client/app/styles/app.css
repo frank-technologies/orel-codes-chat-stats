@@ -1,0 +1,8 @@
+body {
+	padding: 100px 300px; 
+}
+
+pre {
+	max-width: 800px;
+	white-space: normal;
+}
