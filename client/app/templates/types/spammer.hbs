@@ -1,1 +1,9 @@
-<h3>Спамер</h3>
+<h3>Спамеры</h3>
+
+<ul>
+  {{#each this.model as |spammer|}}
+    <li>
+      {{spammer.name}} - {{spammer.cnt_links}}
+    </li>
+  {{/each}}
+</ul>
