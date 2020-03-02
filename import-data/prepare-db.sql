@@ -30,10 +30,17 @@ create table messages(
 	on update cascade on delete restrict
 );
 
+create table hosts(
+	id integer not null auto_increment,
+	name varchar(1000),
+
+	primary key (id)
+);
+
 create table links(
 	id integer not null auto_increment,
 	href varchar(4000) not null,
-	host varchar(1000),
+	host_id integer,
 	txt varchar(4000) not null,
 	message_id integer,
 
@@ -41,7 +48,11 @@ create table links(
 	
 	index(message_id),
 	
-	foreign key (message_id)
+	foreign key (host_id)
+  references hosts(id)
+  on update cascade on delete restrict,
+
+  foreign key (message_id)
   references messages(id)
   on update cascade on delete restrict
 );

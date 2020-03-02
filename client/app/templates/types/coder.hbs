@@ -3,7 +3,10 @@
 <ul>
   {{#each this.model as |coder|}}
     <li>
-      {{coder.name}} - {{coder.cnt_codes}}
+      {{coder.name}} - {{coder.cnt_codes}} <br>
+      <pre>
+      	{{coder.codes.firstObject.code}}
+      </pre>
     </li>
   {{/each}}
 </ul>

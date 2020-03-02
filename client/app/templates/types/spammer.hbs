@@ -4,6 +4,11 @@
   {{#each this.model as |spammer|}}
     <li>
       {{spammer.name}} - {{spammer.cnt_links}}
+      (
+      	{{#each spammer.hosts as |host|}}
+      		{{host.name}} ({{host.cnt_links}})
+      	{{/each}}
+      )
     </li>
   {{/each}}
 </ul>

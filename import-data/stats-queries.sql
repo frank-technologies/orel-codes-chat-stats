@@ -6,27 +6,39 @@ select u.id
 from users u
 join messages m on m.user_id = u.id
 	and m.is_forward = 0
-left join links l on l.message_id = m.id
-	and l.host is not null
-    and l.host not in ('t.me', 't.co')
+left join (
+	select l.id
+		 , l.href
+         , l.message_id
+    from links l
+    join hosts h on h.id = l.host_id
+    where h.name not in ('t.me', 't.co')
+) l on l.message_id = m.id
 left join codes c on c.message_id = m.id
 where u.name != 'Combot'
 group by u.id
 	   , u.name
-order by u.name desc
+order by cnt_links desc
 ;
 
-select m.user_id
-     , l.host
-     , count(l.href) cnt_links
-from messages m
-join links l on l.message_id = m.id
-where m.user_id = 4
-  and l.host is not null
-  and l.host not in ('t.me', 't.co')
-group by m.user_id
-       , l.host
-order by cnt_links desc
+
+select *
+from (
+    select m.user_id
+		 , h.name
+		 , count(l.href) cnt_links
+         , row_number() over (partition by m.user_id order by count(l.href) desc) rn
+	from messages m
+	join links l on l.message_id = m.id
+	where 1=1
+	  and m.user_id in (4, 5)
+	  and l.host is not null
+	  and l.host not in ('t.me', 't.co')
+	group by m.user_id
+		   , l.host
+	order by cnt_links desc
+) d
+where d.rn <= 5
 ;
 
 select l.*

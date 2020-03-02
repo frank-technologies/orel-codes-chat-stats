@@ -129,16 +129,45 @@ async function insertMsg (connection, msg, userId) {
   return msg.id
 }
 
+async function getHostId (connection, hostName) {
+  let hostId = null
+  const hosts = await connection.query(`
+    select id
+    from hosts
+    where name = ?
+  `, [hostName])
+  if (hosts.length > 1) {
+    throw new Error(`Хостов с именем ${hostName} больше одного`)
+  } else if (hosts.length === 0) {
+    const insertRes = await connection.query(`
+      insert into hosts (name)
+      values (?)
+    `, [hostName])
+    if (insertRes.insertId === 0) {
+      throw new Error('id не должен быть равен 0')
+    }
+    hostId = insertRes.insertId
+  } else {
+    hostId = hosts[0].id
+  }
+
+  return hostId
+}
+
 async function insertLink (connection, link, msgId) {
+  let hostId = null
+  if (link.host) {
+    hostId = await getHostId(connection, link.host)
+  }
   await connection.query(`
     insert into links(
       href,
-      host,
+      host_id,
       txt,
       message_id
     )
     values(?, ?, ?, ?)
-  `, [link.href, link.host, link.text, msgId]
+  `, [link.href, hostId, link.text, msgId]
   )
 }
 

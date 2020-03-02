@@ -4,6 +4,12 @@
   {{#each this.model as |chronicler|}}
     <li>
       {{chronicler.name}} - {{chronicler.cnt_chars}}
+
+      (
+      	{{#each chronicler.messages as |message|}}
+					{{message.txt_len}}
+      	{{/each}}
+      )
     </li>
   {{/each}}
 </ul>
