@@ -29,6 +29,7 @@
   font-size: 16px;
   background: #eaeaea;
   padding: 10px;
+  overflow: hidden;
   /* Скопировано из экспорта Телеграма */
   /*font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;*/
 }
