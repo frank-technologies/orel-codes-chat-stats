@@ -1,0 +1,10 @@
+.logo {
+  width: 100px;
+  margin-left: -25px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: black;
+}

@@ -1,0 +1,23 @@
+<div local-class="container">
+  <div local-class="username">
+    {{@coder.name}} - {{format-int @coder.cnt_codes}}
+
+    <button
+      local-class="code-btn"
+      {{on "click" this.toggleCode}}
+    >
+      {{#if isShowCode}}
+        -
+      {{else}}
+        +
+      {{/if}}
+    </button>
+  </div>
+
+  {{#if this.isShowCode}}
+    <pre local-class="code">
+      {{{this.codes.firstObject.code}}}
+    </pre>
+  {{/if}}
+
+</div>

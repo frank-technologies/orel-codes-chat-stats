@@ -25,7 +25,7 @@ function parseLinks ($, $msg) {
 
 function parseCodes ($, $msg) {
   return $msg.find('.body code').map(function () {
-    return $(this).text()
+    return ($(this).html() || '').trim()
   }).get()
 }
 
@@ -43,7 +43,7 @@ function parseMessages (data) {
     const $el = $(this)
     return {
       id: parseInt($el.attr('id').replace('message', ''), 10),
-      text: $el.find('.body .text').text().trim(),
+      text: ($el.find('.body .text').html() || '').trim(),
       user: $el.find('.body:not(.forwarded) > .from_name').text().trim(),
       isReply: Boolean($el.find('.body .reply_to').length),
       isForward: Boolean($el.find('.body .forwarded').length),

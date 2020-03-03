@@ -1,0 +1,1574 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pr",
+				"Println(a ...interface{})\t  n int, err error"
+			],
+			[
+				"Prin",
+				"Println(a ...interface{})\t  n int, err error"
+			],
+			[
+				"btd",
+				"btdYear-1"
+			],
+			[
+				"Btd",
+				"BtdYear\t  int"
+			],
+			[
+				"Get",
+				"GetObjectByName(name string)\t  dicts.dictRow"
+			],
+			[
+				"dic",
+				"dictRow\t  struct{...}"
+			],
+			[
+				"dicr",
+				"dictRowCases\t  struct{...}"
+			],
+			[
+				"respo",
+				"response\t  string"
+			],
+			[
+				"make",
+				"makeHumanNotFoundResponse"
+			],
+			[
+				"res",
+				"response\t  string"
+			],
+			[
+				"re",
+				"response\t  string"
+			],
+			[
+				"Add",
+				"AddDate(years int, months int, days int)\t  time.Time"
+			],
+			[
+				"Bd",
+				"BtdMonth\t  int"
+			],
+			[
+				"Ad",
+				"AddDate(years int, months int, days int)\t  time.Time"
+			],
+			[
+				"pro",
+				"progressMsg"
+			],
+			[
+				"mes",
+				"messages"
+			],
+			[
+				"load",
+				"loadMessagesToDB\t  Function"
+			],
+			[
+				"read",
+				"readFileSync\t  Function"
+			],
+			[
+				"mess",
+				"messagesFileNames"
+			],
+			[
+				"form",
+				"formatPercent(val float64)\t  string"
+			],
+			[
+				"MIN",
+				"MIN_BORDER_FOR_PERCENT = 1/10000\t  float"
+			],
+			[
+				"resValS",
+				"resValShareAbs\t  float64"
+			],
+			[
+				"cnt",
+				"cntFractions\t  int"
+			],
+			[
+				"Lo",
+				"Log10(x float64)\t  float64"
+			],
+			[
+				"a",
+				"Address"
+			],
+			[
+				"Re",
+				"RemoteAddr\t  string"
+			],
+			[
+				"que",
+				"questionHandler"
+			],
+			[
+				"cha",
+				"changeShareOnDate\t  struct{...}"
+			],
+			[
+				"float",
+				"float64\t  TypeParameter"
+			],
+			[
+				"end",
+				"encoder\t  *json.Encoder"
+			],
+			[
+				"Spr",
+				"Sprintf(format string, a ...interface{})\t  string"
+			],
+			[
+				"log",
+				"loggingResponseWriter\t  *loggingResponseWriter"
+			],
+			[
+				"Pi",
+				"Println(a ...interface{})\t  n int, err error"
+			],
+			[
+				"New",
+				"NewEncoder(w io.Writer)\t  *json.Encoder"
+			],
+			[
+				"Inf",
+				"InfoLevel"
+			],
+			[
+				"капи",
+				"капитализации"
+			],
+			[
+				"eq",
+				"deepEqual\t  Function"
+			],
+			[
+				"add",
+				"addCondition\t  Property"
+			],
+			[
+				"attr",
+				"attrToGrid\t  Method"
+			],
+			[
+				"is",
+				"isDisplayed"
+			],
+			[
+				"wa",
+				"waitLoadElement\t  Property"
+			],
+			[
+				"wait",
+				"waitLoadElement\t  Function"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"suc",
+				"successCb\t  Property"
+			],
+			[
+				"proce",
+				"processRenames\t  Function"
+			],
+			[
+				"ren",
+				"rename"
+			],
+			[
+				"rena",
+				"renames"
+			],
+			[
+				"isCha",
+				"isChangeForValMode"
+			],
+			[
+				"da",
+				"dashPeriod"
+			],
+			[
+				"open",
+				"openStair\t  Property"
+			],
+			[
+				"ac",
+				"actTime"
+			],
+			[
+				"push",
+				"pushTime"
+			],
+			[
+				"ser",
+				"serializeTime"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"cellChange",
+				"cellChangeForVal"
+			],
+			[
+				"prod",
+				"prodmetaByName\t  Property"
+			],
+			[
+				"un",
+				"unlockEdit\t  Property"
+			],
+			[
+				"compute",
+				"computedMirrorProps"
+			],
+			[
+				"allVa",
+				"allValsPropsEqual"
+			],
+			[
+				"getValue",
+				"getValueAsDate"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"isCa",
+				"isChangeForValMode"
+			],
+			[
+				"bor",
+				"border-right\tproperty"
+			],
+			[
+				"value",
+				"valueText\t  Method"
+			],
+			[
+				"ope",
+				"openGet\t  Property"
+			],
+			[
+				"try",
+				"tryOpenProductsList\t  Property"
+			],
+			[
+				"get",
+				"getProd\t  Property"
+			],
+			[
+				"tr",
+				"tryOpenProductsList\t  Property"
+			],
+			[
+				"wat",
+				"waitLoadProduct\t  Property"
+			],
+			[
+				"redo",
+				"redoBtn\t  Function"
+			],
+			[
+				"hit",
+				"highlight"
+			],
+			[
+				"product",
+				"productFutureChange"
+			],
+			[
+				"produc",
+				"productFutureChange"
+			],
+			[
+				"produ",
+				"productFutureChange"
+			],
+			[
+				"hot",
+				"horizontalScrollWidth"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"new",
+				"newBetInfluence"
+			],
+			[
+				"trim",
+				"trimChangedProps"
+			],
+			[
+				"onWin",
+				"onWindowBlur"
+			],
+			[
+				"window",
+				"windowBlur"
+			],
+			[
+				"each",
+				"eachSeries\t  Method"
+			],
+			[
+				"getCurre",
+				"getCurrentState"
+			],
+			[
+				"INTER",
+				"INTERVAL_UPDATE_LAST_DATE"
+			],
+			[
+				"remove",
+				"removeFromQueueEvents"
+			],
+			[
+				"set",
+				"setCurrentState"
+			],
+			[
+				"getC",
+				"getCurrentState"
+			],
+			[
+				"ins",
+				"instanceof\t  Keyword"
+			],
+			[
+				"Oute",
+				"OuterCommunicationTest"
+			],
+			[
+				"eve",
+				"eventsToSend"
+			],
+			[
+				"se",
+				"sendEventsToServer"
+			],
+			[
+				"Outer",
+				"OuterCommunicationBase"
+			],
+			[
+				"OuterCom",
+				"outerCommunication"
+			],
+			[
+				"do",
+				"documentFocus"
+			],
+			[
+				"onD",
+				"onDocumentBlur"
+			],
+			[
+				"reope",
+				"reopenAppAndProduct\t  Function"
+			],
+			[
+				"minMaxB",
+				"minMaxByProp\t  Function"
+			],
+			[
+				"inAct",
+				"inActualGridUndepRow"
+			],
+			[
+				"curre",
+				"currencyVattrs"
+			],
+			[
+				"currency",
+				"currencyAttr"
+			],
+			[
+				"minMax",
+				"minMax\t  Function"
+			],
+			[
+				"computedSha",
+				"computedVattrsForShared\t  Function"
+			],
+			[
+				"deep",
+				"deepStrictEqual\t  Function"
+			],
+			[
+				"grid",
+				"gridElement\t  Function"
+			],
+			[
+				"cell",
+				"cellByName"
+			],
+			[
+				"acc",
+				"accountsStore"
+			],
+			[
+				"db",
+				"dbStateInfo"
+			],
+			[
+				"joi",
+				"joiIntStr\t  Property"
+			],
+			[
+				"g",
+				"getStateInfo\t  Property"
+			],
+			[
+				"row",
+				"rowByIdx\t  Method"
+			],
+			[
+				"click",
+				"clickCreate"
+			],
+			[
+				"init",
+				"initialState"
+			],
+			[
+				"computed",
+				"computedBetSharedValsByCurrency\t  Function"
+			],
+			[
+				"getAllVattr",
+				"getAllVattrsBase"
+			],
+			[
+				"sele",
+				"selectDate\t  Property"
+			],
+			[
+				"clic",
+				"clickCreate\t  Property"
+			],
+			[
+				"crea",
+				"createMinProduct"
+			],
+			[
+				"mini",
+				"minimalProdData"
+			],
+			[
+				"f",
+				"firstRow"
+			],
+			[
+				"org",
+				"orgSelected"
+			],
+			[
+				"__",
+				"__dirname"
+			],
+			[
+				"de",
+				"debugScreenshot\t  Property"
+			],
+			[
+				"vattr",
+				"vattrsGetter"
+			],
+			[
+				"Ob",
+				"ObjectProxy"
+			],
+			[
+				"ext",
+				"extractURLsFromString\t  Function"
+			],
+			[
+				"check",
+				"checkURLGarbageParams\t  Function"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lspcl",
+				"LSP: Clear Diagnostics"
+			],
+			[
+				"lspre",
+				"LSP: Restart Servers"
+			],
+			[
+				"lintset",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lspe",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lspdis",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lspena",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lspset",
+				"Preferences: LSP Settings"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"cop",
+				"File: Copy Name"
+			],
+			[
+				"filenew",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"jspre",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lspres",
+				"LSP: Restart Servers"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"filede",
+				"File: Delete"
+			],
+			[
+				"auto",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"stclo",
+				"ST: Select Connection"
+			],
+			[
+				"conne",
+				"ST: Setup Connections"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"st:",
+				"ST: Table Description"
+			],
+			[
+				"shotab",
+				"ST: Show Table Records"
+			],
+			[
+				"table",
+				"ST: Show Table Records"
+			],
+			[
+				"connec",
+				"ST: Setup Connections"
+			],
+			[
+				"setupcon",
+				"ST: Setup Connections"
+			],
+			[
+				"bra",
+				"Git: Change Branch"
+			],
+			[
+				"inc",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"rena",
+				"LSP: Rename Symbol"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"lsb",
+				"LSP: Rename Symbol"
+			],
+			[
+				"servers",
+				"LSP: Restart Servers"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"UI: Select Color Scheme"
+			],
+			[
+				"closel",
+				"File: Close All"
+			],
+			[
+				"resta",
+				"LSP: Restart Servers"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"fileclose",
+				"File: Close All"
+			],
+			[
+				"restar",
+				"LSP: Restart Servers"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"restart",
+				"LSP: Restart Servers"
+			],
+			[
+				"packacon",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"filecopre",
+				"File: Copy Relative Path To Project"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 452.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/coder.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/import-data/index.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/server/index.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/adapters/application.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/application.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/types/spammer.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/types/coder.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/spammer.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/models/user.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/jsconfig.json",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/application.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/.eslintrc.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/import-data/.eslintrc.json",
+		"/home/mynoheart/develop/chat-bots/api/scripts/request.sh",
+		"/home/mynoheart/develop/chat-bots/api/src/web/web.go",
+		"/home/mynoheart/develop/orel-codes/chat-stats/ChatExport_26_02_2020/messages.html",
+		"/home/mynoheart/develop/orel-codes/chat-stats/ChatExport_26_02_2020/messages26.html",
+		"/home/mynoheart/develop/orel-codes/chat-stats/mysql.bash",
+		"/home/mynoheart/develop/orel-codes/chat-stats/docker-compose.yml",
+		"/home/mynoheart/develop/orel-codes/chat-stats/test-query.js",
+		"/home/mynoheart/develop/manana-tasks/frg-cbr-info-struct-credit-orgs/bin/index.js",
+		"/home/mynoheart/develop/pantkeeper/server/src/data/data.go",
+		"/home/mynoheart/develop/pantkeeper/server/src/lib/convert.go",
+		"/home/mynoheart/develop/orel-codes/chat-stats/.gitignore",
+		"/home/mynoheart/develop/chat-bots/api/src/data/data.go",
+		"/home/mynoheart/develop/chat-bots/api/src/logger/logger.go",
+		"/home/mynoheart/develop/chat-bots/api/logs/requests.log",
+		"/home/mynoheart/develop/chat-bots/api/data/data.txt",
+		"/home/mynoheart/develop/chat-bots/api/src/main.go",
+		"/home/mynoheart/develop/chat-bots/test-page/app/controllers/application.js",
+		"/home/mynoheart/develop/chat-bots/api/.dockerignore",
+		"/home/mynoheart/develop/chat-bots/api/.gitignore",
+		"/home/mynoheart/develop/chat-bots/api/requests.log",
+		"/home/mynoheart/develop/chat-bots/api/src/dicts/dicts.go",
+		"/home/mynoheart/develop/atlant/ui-tests/test/deposit.js",
+		"/home/mynoheart/develop/atlant/ui-tests/errorShots/2020.02.26_16:41:28-Депозиты Эталонные примеры расчета эффективной ставки Лестничный с капитализацией и УМДА без капитал.png",
+		"/home/mynoheart/develop/atlant/server/src/models/ptypes.js",
+		"/home/mynoheart/develop/atlant/server/src/handlers/product-future-changes.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/stairrow.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/base-col.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/shared-logic-elements.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/effect-bets.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/vattr.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/templates/products/edit/dates/dt.hbs",
+		"/home/mynoheart/develop/atlant/web-ui/app/controllers/products/edit/dates/dt.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/ptype.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/adapters/stairrow.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/staircol.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/adapters/staircol.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/attrs/cond-influence/template.hbs",
+		"/home/mynoheart/develop/atlant/server/src/models/ptypes/deposits.js",
+		"/home/mynoheart/develop/atlant/server/src/master-server.js",
+		"/home/mynoheart/develop/atlant/ui-tests/config.js",
+		"/home/mynoheart/develop/atlant/ui-tests/test/cash-loans.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/product-edit.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/right-panel.js",
+		"/home/mynoheart/develop/atlant/ui-tests/test/drafts.js",
+		"/home/mynoheart/develop/atlant/ui-tests/errorShots/2020.02.21_12:02:99-Черновики Ошибка: если создать продукт на основе другого, а после попробовать открыть его черновик, .png",
+		"/home/mynoheart/develop/atlant/ui-tests/errorShots/2020.02.21_10:49:31-Депозиты Эталонные примеры расчета эффективной ставки Обычный с капитализацией 1.png",
+		"/home/mynoheart/develop/atlant/ui-tests/wdio.conf.js",
+		"/home/mynoheart/develop/atlant/ui-tests/errorShots/2020.02.21_10:35:20-Депозиты Лестничный (в нем и признаки добавляются в сетку) Базовые тесты Значение лестничного срока .png",
+		"/home/mynoheart/develop/atlant/ui-tests/deepCompareDifferents/2020.02.21_10:17:57-obj1.json",
+		"/home/mynoheart/develop/atlant/ui-tests/deepCompareDifferents/2020.02.21_10:17:57-obj2.json",
+		"/home/mynoheart/develop/atlant/ui-tests/test-data/deposits/Абсолют Банк: Растивклад.json",
+		"/home/mynoheart/develop/atlant/ui-tests/test-data/deposits/Банк Зенит: Стратегия лидерства.json",
+		"/home/mynoheart/develop/atlant/ui-tests/test-data/deposits/Минимальные данные для сохранения продукта.json",
+		"/home/mynoheart/develop/atlant/ui-tests/package.json",
+		"/home/mynoheart/develop/atlant/server/src/lib/store/models/periodcol.js",
+		"/home/mynoheart/develop/atlant/server/src/handlers/product-data.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/base-model.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/periodcol.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/services/edit-bus.js",
+		"/home/mynoheart/develop/atlant/ui-tests/accounts-store/.accounts-store.json",
+		"/home/mynoheart/develop/atlant/server/src/lib/store/store.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/converter/clientformat2versions.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/groups/packet-cms.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/packet-cms/org-transfer/template.hbs",
+		"/home/mynoheart/develop/atlant/server/src/handlers/dates.js",
+		"/home/mynoheart/develop/atlant/ui-tests/errorShots/2020.02.20_15:36:40-Депозиты Обычный Записать.png",
+		"/home/mynoheart/develop/atlant/web-ui/app/controllers/products/edit/dates/dt/grid.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/shared-actions.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/modal.js",
+		"/home/mynoheart/develop/atlant/server/package.json",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/save-product-attrs/component.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/drafts.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/routes/products/edit/dates/dt.js",
+		"/home/mynoheart/develop/atlant/server/src/routes/worker-routes.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/pdates.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/products-list/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/styles/components/save-product-attrs.css",
+		"/home/mynoheart/develop/atlant/server/src/server-methods/get-product.js",
+		"/home/mynoheart/develop/atlant/server/src/handlers/products.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/routes/products/edit/dates.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/save-product-attrs/template.hbs",
+		"/home/mynoheart/develop/atlant/server/src/models/dict-address.js",
+		"/home/mynoheart/develop/atlant/server/src/server-methods/get-dict-change-reasons.js",
+		"/home/mynoheart/develop/atlant/server/src/models/dict-change-reason.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/grid-cell-cm/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/hotkey-select/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/addon/system/target.js",
+		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/addon/components/popup-menu.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/a-popup/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/hotkey-select/template.hbs",
+		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/README.md",
+		"/home/mynoheart/develop/atlant/web-ui/app/styles/components.css",
+		"/home/mynoheart/develop/atlant/web-ui/app/styles/modules.css",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/tape-date/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/routes/application.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/models/dict-change-reasons.js",
+		"/home/mynoheart/develop/atlant/server/src/handlers/attrs.js",
+		"/home/mynoheart/develop/atlant/server/src/worker-server.js",
+		"/home/mynoheart/develop/atlant/server/src/handlers/dict-change-reasons.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/save-request-data.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/auth.js",
+		"/home/mynoheart/develop/atlant/ui-tests/lib/hotkey-select.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/db-state.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/product-s2c.js",
+		"/home/mynoheart/develop/atlant/server/src/lib/util.js",
+		"/home/mynoheart/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/home/mynoheart/.config/sublime-text-3/Packages/User/JsPrettier.sublime-settings",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/p-tags/style.css",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/operations/template.hbs",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/commission/template.hbs",
+		"/home/mynoheart/develop/atlant/server/src/server-methods/get-attrs/saving-account.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/operations/component.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/lib/groups/savings-account.js",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/product-conditions/template.hbs",
+		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/accrual-payment/template.hbs"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"/home/mynoheart/develop/orel-codes/chat-stats/ChatExport_26_02_2020"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"spammer",
+			"spammers",
+			"indfunds",
+			"notFoundError",
+			"notfou",
+			"return ",
+			"dt",
+			"params",
+			"dt",
+			"time.Month(",
+			"params.",
+			":=",
+			"params.Btd",
+			"Maksim Vasyunin 07.01.2019 21:08:05",
+			"code",
+			"<code",
+			"execute",
+			"console",
+			"AnimatedSticker (11).tgs",
+			"not null"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLTools Result":
+	{
+		"height": 227.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 78.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 121.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 127.0
+	},
+	"output.git":
+	{
+		"height": 121.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 121.0
+	},
+	"output.references":
+	{
+		"height": 127.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"templsp",
+				"client/app/templates/types/spammer.hbs"
+			],
+			[
+				"modeluser",
+				"client/app/models/user.js"
+			],
+			[
+				"routeap",
+				"client/app/routes/application.js"
+			],
+			[
+				"data",
+				"src/data/data.go"
+			],
+			[
+				"we",
+				"src/web/web.go"
+			],
+			[
+				"dict",
+				"src/dicts/dicts.go"
+			],
+			[
+				"data.go",
+				"src/data/data.go"
+			],
+			[
+				"main",
+				"src/main.go"
+			],
+			[
+				"testdepo",
+				"ui-tests/test/deposit.js"
+			],
+			[
+				"modelsta",
+				"web-ui/app/models/stairrow.js"
+			],
+			[
+				"modelperio",
+				"web-ui/app/models/periodcol.js"
+			],
+			[
+				"stairrow",
+				"web-ui/app/models/stairrow.js"
+			],
+			[
+				"modelstai",
+				"web-ui/app/models/stairrow.js"
+			],
+			[
+				"staircol",
+				"web-ui/app/models/staircol.js"
+			],
+			[
+				"sta",
+				"web-ui/app/adapters/staircol.js"
+			],
+			[
+				"stair",
+				"web-ui/app/adapters/staircol.js"
+			],
+			[
+				"compocondhbs",
+				"web-ui/app/components/attrs/cond-influence/template.hbs"
+			],
+			[
+				"modelper",
+				"web-ui/app/models/periodcol.js"
+			],
+			[
+				"controldt",
+				"web-ui/app/controllers/products/edit/dates/dt.js"
+			],
+			[
+				"modelpty",
+				"server/src/models/ptypes.js"
+			],
+			[
+				"librig",
+				"ui-tests/lib/right-panel.js"
+			],
+			[
+				"con",
+				"ui-tests/config.js"
+			],
+			[
+				"libedi",
+				"ui-tests/lib/product-edit.js"
+			],
+			[
+				"modelvattr",
+				"web-ui/app/models/vattr.js"
+			],
+			[
+				"contrdt",
+				"web-ui/app/controllers/products/edit/dates/dt.js"
+			],
+			[
+				"modevattr",
+				"web-ui/app/models/vattr.js"
+			],
+			[
+				"servedi",
+				"web-ui/app/services/edit-bus.js"
+			],
+			[
+				"libpac",
+				"web-ui/app/lib/groups/packet-cms.js"
+			],
+			[
+				"sermodelper",
+				"server/src/lib/store/models/periodcol.js"
+			],
+			[
+				"hanprod",
+				"server/src/handlers/product-data.js"
+			],
+			[
+				"org-transfer",
+				"web-ui/app/components/groups/packet-cms/org-transfer/template.hbs"
+			],
+			[
+				"perioco",
+				"web-ui/app/models/periodcol.js"
+			],
+			[
+				"serviced",
+				"web-ui/app/services/edit-bus.js"
+			],
+			[
+				"modeperi",
+				"web-ui/app/models/periodcol.js"
+			],
+			[
+				"controdt",
+				"web-ui/app/controllers/products/edit/dates/dt.js"
+			],
+			[
+				"servermodelperio",
+				"server/src/lib/store/models/periodcol.js"
+			],
+			[
+				"controgrid",
+				"web-ui/app/controllers/products/edit/dates/dt/grid.js"
+			],
+			[
+				"controlgrid",
+				"web-ui/app/controllers/products/edit/dates/dt/grid/period.js"
+			],
+			[
+				"routeddt",
+				"web-ui/app/routes/products/edit/dates/dt.js"
+			],
+			[
+				"libdates",
+				"web-ui/app/lib/pdates.js"
+			],
+			[
+				"templdt",
+				"web-ui/app/templates/products/edit/dates/dt.hbs"
+			],
+			[
+				"serverreas",
+				"server/src/server-methods/get-dict-change-reasons.js"
+			],
+			[
+				"hotkeytem",
+				"web-ui/app/components/hotkey-select/template.hbs"
+			],
+			[
+				"hotkeycom",
+				"web-ui/app/components/hotkey-select/component.js"
+			],
+			[
+				"a-popupcom",
+				"web-ui/app/components/a-popup/component.js"
+			],
+			[
+				"popupcompo",
+				"node_modules/ember-popup-menu/addon/components/popup-menu.js"
+			],
+			[
+				"popupread",
+				"node_modules/ember-popup-menu/README.md"
+			],
+			[
+				"nodemodulepopup",
+				"node_modules/ember-popup-menu/addon/components/popup-menu.js"
+			],
+			[
+				"hotkeyselecompo",
+				"web-ui/app/components/hotkey-select/component.js"
+			],
+			[
+				"saveattrcom",
+				"web-ui/app/components/save-product-attrs/component.js"
+			],
+			[
+				"savebu",
+				"web-ui/app/components/save-product-attrs/template.hbs"
+			],
+			[
+				"saveprodatt",
+				"web-ui/app/components/save-product-attrs/component.js"
+			],
+			[
+				"composaveprodatt",
+				"web-ui/app/components/save-product-attrs/template.hbs"
+			],
+			[
+				"templadt",
+				"web-ui/app/templates/products/edit/dates/dt.hbs"
+			],
+			[
+				"testtele",
+				"web-ui/tests/unit/services/telemetry-test.js"
+			],
+			[
+				"servicetele",
+				"web-ui/app/services/telemetry.js"
+			],
+			[
+				"libgrdepo",
+				"web-ui/app/lib/groups/deposits.js"
+			],
+			[
+				"ptysa",
+				"server/src/models/ptypes/savings-account.js"
+			],
+			[
+				"getatde",
+				"server/src/server-methods/get-attrs/deposits.js"
+			],
+			[
+				"prodattr",
+				"web-ui/app/styles/modules/product-attrs.css"
+			],
+			[
+				"stylprodat",
+				"web-ui/app/styles/modules/product-attrs.css"
+			],
+			[
+				"modelptydepo",
+				"server/src/models/ptypes/deposits.js"
+			],
+			[
+				"accrual-payment",
+				"web-ui/app/components/groups/deposits/accrual-payment/template.hbs"
+			],
+			[
+				"depoaccrual-payment",
+				"web-ui/app/components/groups/deposits/accrual-payment/component.js"
+			],
+			[
+				"modeldt",
+				"server/src/models/dtypes.js"
+			],
+			[
+				"modeptyde",
+				"server/src/models/ptypes/deposits.js"
+			],
+			[
+				"depoinve",
+				"web-ui/app/components/groups/deposits/investment-condition/template.hbs"
+			],
+			[
+				"depprodcon",
+				"web-ui/app/components/groups/deposits/product-conditions/component.js"
+			],
+			[
+				"depoprodcond",
+				"web-ui/app/components/groups/deposits/product-conditions/template.hbs"
+			],
+			[
+				"depoprodcon",
+				"web-ui/app/components/groups/deposits/product-conditions/template.hbs"
+			],
+			[
+				"get-attr",
+				"server/src/server-methods/get-attrs.js"
+			],
+			[
+				"deposahte",
+				"web-ui/app/components/groups/deposits/shared-attrs/template.hbs"
+			],
+			[
+				"deposhared",
+				"web-ui/app/components/groups/deposits/shared-attrs/template.hbs"
+			],
+			[
+				"libgroudepo",
+				"web-ui/app/lib/groups/deposits.js"
+			],
+			[
+				"attr",
+				"server/attrs.json"
+			],
+			[
+				"modelattr",
+				"web-ui/app/models/attr.js"
+			],
+			[
+				"que",
+				"server/query for attrs.sql"
+			],
+			[
+				"libgrid",
+				"web-ui/app/lib/base-grid-controller.js"
+			],
+			[
+				"modelstair",
+				"web-ui/app/models/staircol.js"
+			],
+			[
+				"modeper",
+				"web-ui/app/models/periodrow.js"
+			],
+			[
+				"compogridcellcom",
+				"web-ui/app/components/grid-cell/component.js"
+			],
+			[
+				"modelstairc",
+				"web-ui/app/models/staircol.js"
+			],
+			[
+				"modelstar",
+				"web-ui/app/models/stairrow.js"
+			],
+			[
+				"modeperio",
+				"web-ui/app/models/periodrow.js"
+			],
+			[
+				"routegrid",
+				"web-ui/app/routes/products/edit/dates/dt/grid.js"
+			],
+			[
+				"libcon",
+				"web-ui/app/lib/base-grid-controller.js"
+			],
+			[
+				"compogridcelcom",
+				"web-ui/app/components/grid-cell/component.js"
+			],
+			[
+				"webgridcellcom",
+				"web-ui/app/components/grid-cell/component.js"
+			],
+			[
+				"libgr",
+				"ui-tests/lib/grid.js"
+			],
+			[
+				"libhelp",
+				"ui-tests/lib/helpers.js"
+			],
+			[
+				"modelprodme",
+				"web-ui/app/models/prodmetaval.js"
+			],
+			[
+				"servitele",
+				"web-ui/app/services/telemetry.js"
+			],
+			[
+				"stycha",
+				"web-ui/app/styles/components/cell-change-for-vals-window.css"
+			],
+			[
+				"libgri",
+				"web-ui/app/lib/base-grid-controller.js"
+			],
+			[
+				"tesdepo",
+				"ui-tests/test/deposit.js"
+			],
+			[
+				"compogridcel",
+				"web-ui/app/styles/components/grid-cell.css"
+			],
+			[
+				"libsah",
+				"ui-tests/lib/shared-attrs.js"
+			],
+			[
+				"webmodelprd",
+				"web-ui/app/models/prodmeta.js"
+			],
+			[
+				"modelprodmet",
+				"server/src/models/prodmeta.js"
+			],
+			[
+				"gridcelltem",
+				"web-ui/app/components/grid-cell/template.hbs"
+			],
+			[
+				"gridcellcom",
+				"web-ui/app/components/grid-cell/component.js"
+			],
+			[
+				"templgri",
+				"web-ui/app/templates/products/edit/dates/dt/grid-template.hbs"
+			],
+			[
+				"libbase",
+				"web-ui/app/lib/base-grid-controller.js"
+			],
+			[
+				"stygrce",
+				"web-ui/app/styles/components/grid-cell.css"
+			],
+			[
+				"movawin",
+				"web-ui/app/components/movable-window/component.js"
+			],
+			[
+				"chanfor",
+				"web-ui/app/components/cell-change-for-vals-window/template.hbs"
+			],
+			[
+				"libhe",
+				"web-ui/app/lib/helpers.js"
+			],
+			[
+				"chanfo",
+				"web-ui/app/components/cell-change-for-vals-window/component.js"
+			],
+			[
+				"grid-cellcompo",
+				"web-ui/app/components/grid-cell/component.js"
+			],
+			[
+				"modelatt",
+				"web-ui/app/models/vattr.js"
+			],
+			[
+				"libmodel",
+				"web-ui/app/lib/base-model.js"
+			],
+			[
+				"comgridce",
+				"web-ui/app/styles/components/grid-cell.css"
+			],
+			[
+				"gridte",
+				"web-ui/app/templates/products/edit/dates/dt/grid-template.hbs"
+			],
+			[
+				"mova",
+				"web-ui/app/styles/components/movable-window.css"
+			],
+			[
+				"gridtem",
+				"web-ui/app/templates/products/edit/dates/dt/grid-template.hbs"
+			],
+			[
+				"gridtempl",
+				"web-ui/app/templates/products/edit/dates/dt/grid-template.hbs"
+			],
+			[
+				"basegr",
+				"web-ui/app/lib/base-grid-controller.js"
+			],
+			[
+				"contrgr",
+				"web-ui/app/controllers/products/edit/dates/dt/grid.js"
+			],
+			[
+				"comtablcom",
+				"web-ui/app/components/ember-table-with-fixes/component.js"
+			],
+			[
+				"modelptyp",
+				"server/src/models/ptypes.js"
+			],
+			[
+				"modelpt",
+				"web-ui/app/models/ptype.js"
+			],
+			[
+				"righ",
+				"ui-tests/lib/right-panel.js"
+			],
+			[
+				"routdt",
+				"web-ui/app/routes/products/edit/dates/dt.js"
+			],
+			[
+				"conf",
+				"ui-tests/config.js"
+			],
+			[
+				"righp",
+				"ui-tests/lib/right-panel.js"
+			],
+			[
+				"routedt",
+				"web-ui/app/routes/products/edit/dates/dt.js"
+			],
+			[
+				"contrgridper",
+				"web-ui/app/controllers/products/edit/dates/dt/grid/period.js"
+			],
+			[
+				"congri",
+				"web-ui/app/controllers/products/edit/dates/dt/grid.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

@@ -1,12 +1,5 @@
-<h3>Кодер</h3>
+<h2>Кодеры</h2>
 
-<ul>
-  {{#each this.model as |coder|}}
-    <li>
-      {{coder.name}} - {{coder.cnt_codes}} <br>
-      <pre>
-      	{{coder.codes.firstObject.code}}
-      </pre>
-    </li>
-  {{/each}}
-</ul>
+{{#each this.model as |coder|}}
+  <Coder @coder={{coder}} />
+{{/each}}

@@ -5,6 +5,7 @@ export default class UserModel extends Model {
   @attr('number') cnt_links
   @attr('number') cnt_codes
   @attr('number') cnt_chars
+  @attr('number') cnt_messages
 
   @hasMany('host') hosts
   @hasMany('message') messages

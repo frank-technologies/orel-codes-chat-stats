@@ -1,0 +1,29 @@
+.container {
+  padding-bottom: 20px;
+}
+
+.username {
+  white-space: nowrap;
+  font-size: 16pt;
+  display: flex;
+  align-items: center;
+}
+
+.code {
+  color: black;
+  font-size: 16px;
+  background: #eaeaea;
+  padding: 10px;
+  /* Скопировано из экспорта Телеграма */
+  /*font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;*/
+}
+
+.code-btn {
+  margin-left: 5px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.username:hover .code-btn {
+  visibility: visible;
+}

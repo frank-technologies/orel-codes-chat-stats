@@ -1,0 +1,34 @@
+.block {
+  padding: 10px;
+}
+
+.username {
+  white-space: nowrap;
+  font-size: 16pt;
+  display: flex;
+  align-items: center;
+}
+
+.domains {
+  background: #eaeaea;
+  padding: 10px;
+}
+
+.domains-btn {
+  cursor: pointer;
+  visibility: hidden;
+  margin-left: 10px;
+}
+
+.block:hover .domains-btn {
+  visibility: visible;
+}
+
+.domain {
+  white-space: nowrap;
+}
+
+.count {
+  text-align: right;
+  padding-left: 10px;
+}

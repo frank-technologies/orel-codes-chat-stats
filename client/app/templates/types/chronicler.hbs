@@ -1,15 +1,7 @@
-<h3>Летописец</h3>
+<h2>Летописцы</h2>
 
-<ul>
+<div>
   {{#each this.model as |chronicler|}}
-    <li>
-      {{chronicler.name}} - {{chronicler.cnt_chars}}
-
-      (
-      	{{#each chronicler.messages as |message|}}
-					{{message.txt_len}}
-      	{{/each}}
-      )
-    </li>
+    <Chronicler @chronicler={{chronicler}} />
   {{/each}}
-</ul>
+</div>

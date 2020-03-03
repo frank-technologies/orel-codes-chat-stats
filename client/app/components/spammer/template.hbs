@@ -1,0 +1,37 @@
+<div local-class="block">
+
+  <div local-class="username">
+    {{@spammer.name}} ({{format-int @spammer.cnt_links}})
+
+    <button
+      local-class="domains-btn"
+      {{on "click" this.toggleDomains}}
+    >
+      {{#if isShowDomains}}
+        -
+      {{else}}
+        +
+      {{/if}}
+    </button>
+  </div>
+
+  {{#if isShowDomains}}
+    <div local-class="domains">
+      <table>
+        <tbody>
+          {{#each this.hosts as |host|}}
+            <tr>
+              <td local-class="domain">
+                {{host.name}}
+              </td>
+              <td local-class="count">
+                 {{format-int host.cnt_links}}
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  {{/if}}
+  
+</div>

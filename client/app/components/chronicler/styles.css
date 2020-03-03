@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.messages {
+  display: flex;
+}
+
+.messages-label {
+  padding: 5px 0px;
+}
+
+.message {
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.message-is-show {
+  font-weight: bold;
+}
+
+.showing-message {
+  color: black;
+  font-size: 16px;
+  background: #eaeaea;
+  padding: 10px;
+  /* Скопировано из экспорта Телеграма */
+  /*font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;*/
+}

@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px transparent;
+  white-space: nowrap;
+}
+
+.menu-item:hover {
+  border-color: grey;
+}
+
+
+

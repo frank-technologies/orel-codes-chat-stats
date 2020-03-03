@@ -39,6 +39,7 @@ const getUsers = {
            , count(l.href) cnt_links
            , count(c.code) cnt_codes
            , sum(char_length(m.txt)) cnt_chars
+           , count(m.id) cnt_messages
       from users u
       join messages m on m.user_id = u.id
         and m.is_forward = 0
@@ -78,16 +79,17 @@ const getHosts = {
     const hosts = await conn.query(`
       select *
       from (
-          select m.user_id user
-               , concat(m.user_id, '-', h.id) id
-               , h.name
-               , count(l.href) cnt_links
-               , row_number() over (partition by m.user_id order by count(l.href) desc) place
+        select m.user_id user
+             , concat(m.user_id, '-', h.id) id
+             , h.name
+             , count(l.href) cnt_links
+             , row_number() over (partition by m.user_id order by count(l.href) desc) place
         from messages m
         join links l on l.message_id = m.id
-          join hosts h on h.id = l.host_id
+        join hosts h on h.id = l.host_id
         where m.user_id in ${conn.escape(query.user_ids)}
           and h.name not in ('t.me', 't.co')
+          and m.is_forward = 0
         group by m.user_id
             , h.id
             , h.name
@@ -124,9 +126,11 @@ const getMessages = {
              , row_number() over (partition by m.user_id order by char_length(m.txt) desc) place  
         from messages m
         where m.user_id in ${conn.escape(query.user_ids)}
+          and m.is_forward = 0
         group by m.user_id
                , m.id
                , m.txt
+        order by txt_len desc
       ) d
       where d.place <= ?
     `, [query.top])
@@ -158,11 +162,13 @@ const getCodes = {
                , char_length(c.code) code_len
                , row_number() over (partition by m.user_id order by char_length(c.code) desc) place 
           from messages m
-            join codes c on c.message_id = m.id
+          join codes c on c.message_id = m.id
           where m.user_id in ${conn.escape(query.user_ids)}
+            and m.is_forward = 0
           group by m.user_id
               , c.id
               , c.code
+          order by code_len desc
       ) d
       where d.place <= ?
     `, [query.top])

@@ -1,17 +1,19 @@
-<div>
+<div local-class="menu">
 	<LinkTo @route="types.spammer">
-		Спамер
+    <div local-class="menu-item">
+  		Спамеры (ссылок: {{format-int this.sumCntLinks}})
+    </div>
 	</LinkTo>
-</div>
 
-<div>
 	<LinkTo @route="types.chronicler">
-		Летописец
+    <div local-class="menu-item">
+  		Летописцы (символов: {{format-int this.sumCntChars}})
+    </div>
 	</LinkTo>
-</div>
 
-<div>
 	<LinkTo @route="types.coder">
-		Кодер
+    <div local-class="menu-item">
+  		Кодеры (вставок: {{format-int this.sumCntCodes}})
+    </div>
 	</LinkTo>
 </div>

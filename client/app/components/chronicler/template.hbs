@@ -1,0 +1,29 @@
+<div local-class="container">
+
+  <div local-class="username">
+    {{@chronicler.name}} ({{format-int @chronicler.cnt_chars}})
+  </div>
+
+  <div local-class="messages">
+    <div local-class="messages-label">Топ сообщений по длине:</div>
+
+    {{#each @chronicler.messages as |message|}}
+      <div
+        local-class="
+          message
+          {{if (eq message showingMessage) "message-is-show"}}
+        "
+        {{on "click" (fn this.showMessage message)}}
+      >
+        {{format-int message.txt_len}}
+      </div>
+    {{/each}}
+  </div>
+
+  {{#if showingMessage}}
+    <div local-class="showing-message">
+      {{{showingMessage.txt}}}
+    </div>
+  {{/if}}
+
+</div>

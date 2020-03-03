@@ -1,14 +1,7 @@
-<h3>Спамеры</h3>
+<h2>Спамеры</h2>
 
-<ul>
+<div local-class="list">
   {{#each this.model as |spammer|}}
-    <li>
-      {{spammer.name}} - {{spammer.cnt_links}}
-      (
-      	{{#each spammer.hosts as |host|}}
-      		{{host.name}} ({{host.cnt_links}})
-      	{{/each}}
-      )
-    </li>
+    <Spammer @spammer={{spammer}} />
   {{/each}}
-</ul>
+</div>
