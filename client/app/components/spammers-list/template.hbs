@@ -1,0 +1,22 @@
+<div>
+  <button
+    {{on "click" this.toggleAllExpandedSpammer}}
+    title="Развернуть/свернуть все"
+  >
+    {{#if this.isHaveExpanded}}
+      -
+    {{else}}
+      +
+    {{/if}}
+  </button>
+</div>
+
+<div local-class="list">
+  {{#each @users as |spammer|}}
+    <Spammer
+      @spammer={{spammer}}
+      @isExpanded={{is-include expandedSpammers spammer}}
+      @toggleExpand={{fn this.toggleExpandedSpammer spammer}}
+    />
+  {{/each}}
+</div>

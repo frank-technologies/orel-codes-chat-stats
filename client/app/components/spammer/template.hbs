@@ -5,9 +5,9 @@
 
     <button
       local-class="domains-btn"
-      {{on "click" this.toggleDomains}}
+      {{on "click" @toggleExpand}}
     >
-      {{#if isShowDomains}}
+      {{#if @isExpanded}}
         -
       {{else}}
         +
@@ -15,7 +15,7 @@
     </button>
   </div>
 
-  {{#if isShowDomains}}
+  {{#if @isExpanded}}
     <div local-class="domains">
       <table>
         <tbody>

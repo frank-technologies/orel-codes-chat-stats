@@ -1,7 +1,3 @@
 <h2>Спамеры</h2>
 
-<div local-class="list">
-  {{#each this.model as |spammer|}}
-    <Spammer @spammer={{spammer}} />
-  {{/each}}
-</div>
+<SpammersList @users={{this.model}} />
