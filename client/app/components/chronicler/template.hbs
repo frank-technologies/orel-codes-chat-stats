@@ -11,7 +11,7 @@
       <div
         local-class="
           message
-          {{if (eq message showingMessage) "message-is-show"}}
+          {{if (eq message this.showingMessage) "message-is-show"}}
         "
         {{on "click" (fn this.showMessage message)}}
       >
@@ -20,9 +20,9 @@
     {{/each}}
   </div>
 
-  {{#if showingMessage}}
+  {{#if this.showingMessage}}
     <div local-class="showing-message">
-      {{{showingMessage.txt}}}
+      {{{this.showingMessage.txt}}}
     </div>
   {{/if}}
 

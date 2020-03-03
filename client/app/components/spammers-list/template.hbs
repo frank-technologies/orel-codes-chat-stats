@@ -15,7 +15,7 @@
   {{#each @users as |spammer|}}
     <Spammer
       @spammer={{spammer}}
-      @isExpanded={{is-include expandedSpammers spammer}}
+      @isExpanded={{is-include this.expandedSpammers spammer}}
       @toggleExpand={{fn this.toggleExpandedSpammer spammer}}
     />
   {{/each}}
