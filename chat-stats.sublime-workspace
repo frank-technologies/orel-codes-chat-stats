@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"expa",
+				"expandedUsers"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"marin",
+				"margin-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"s",
+				"flex-start\talign-items"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
 				"Pr",
 				"Println(a ...interface{})\t  n int, err error"
 			],
@@ -172,10 +228,6 @@
 				"waitLoadElement\t  Function"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
 				"back",
 				"background\tproperty"
 			],
@@ -218,10 +270,6 @@
 			[
 				"ser",
 				"serializeTime"
-			],
-			[
-				"padd",
-				"padding-top\tproperty"
 			],
 			[
 				"cellChange",
@@ -310,10 +358,6 @@
 			[
 				"hot",
 				"horizontalScrollWidth"
-			],
-			[
-				"flex",
-				"flex-direction\tproperty"
 			],
 			[
 				"no",
@@ -470,50 +514,6 @@
 			[
 				"sele",
 				"selectDate\t  Property"
-			],
-			[
-				"clic",
-				"clickCreate\t  Property"
-			],
-			[
-				"crea",
-				"createMinProduct"
-			],
-			[
-				"mini",
-				"minimalProdData"
-			],
-			[
-				"f",
-				"firstRow"
-			],
-			[
-				"org",
-				"orgSelected"
-			],
-			[
-				"__",
-				"__dirname"
-			],
-			[
-				"de",
-				"debugScreenshot\t  Property"
-			],
-			[
-				"vattr",
-				"vattrsGetter"
-			],
-			[
-				"Ob",
-				"ObjectProxy"
-			],
-			[
-				"ext",
-				"extractURLsFromString\t  Function"
-			],
-			[
-				"check",
-				"checkURLGarbageParams\t  Function"
 			]
 		]
 	},
@@ -528,6 +528,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
 			[
 				"lspcl",
 				"LSP: Clear Diagnostics"
@@ -754,15 +762,41 @@
 	},
 	"file_history":
 	[
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammers-list/component.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammers-list/template.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/helpers/is-include.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammer/template.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammer/component.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/spammer.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammers-list/styles.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/styles/types/spammer.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/spammer/styles.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/coder/template.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/coder/styles.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/chronicler/template.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/chronicler/styles.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/application.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/styles/application.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/chronicler.hbs",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/coder.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/coder/component.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/import-data/index.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/server/index.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/components/chronicler/component.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/styles/app.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/index.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/helpers/format-int.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/helpers/eq.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/loading.hbs",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/index.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/controllers/index.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/styles/index.css",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/controllers/application.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/models/user.js",
+		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/router.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/adapters/application.js",
-		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/application.hbs",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/types/spammer.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/types/coder.js",
-		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/templates/types/spammer.hbs",
-		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/models/user.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/jsconfig.json",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/app/routes/application.js",
 		"/home/mynoheart/develop/orel-codes/chat-stats/client/.eslintrc.js",
@@ -855,37 +889,11 @@
 		"/home/mynoheart/develop/atlant/web-ui/app/components/hotkey-select/component.js",
 		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/addon/system/target.js",
 		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/addon/components/popup-menu.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/a-popup/component.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/hotkey-select/template.hbs",
-		"/home/mynoheart/develop/atlant/web-ui/node_modules/ember-popup-menu/README.md",
-		"/home/mynoheart/develop/atlant/web-ui/app/styles/components.css",
-		"/home/mynoheart/develop/atlant/web-ui/app/styles/modules.css",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/tape-date/component.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/routes/application.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/models/dict-change-reasons.js",
-		"/home/mynoheart/develop/atlant/server/src/handlers/attrs.js",
-		"/home/mynoheart/develop/atlant/server/src/worker-server.js",
-		"/home/mynoheart/develop/atlant/server/src/handlers/dict-change-reasons.js",
-		"/home/mynoheart/develop/atlant/server/src/lib/save-request-data.js",
-		"/home/mynoheart/develop/atlant/ui-tests/lib/auth.js",
-		"/home/mynoheart/develop/atlant/ui-tests/lib/hotkey-select.js",
-		"/home/mynoheart/develop/atlant/server/src/lib/db-state.js",
-		"/home/mynoheart/develop/atlant/server/src/lib/product-s2c.js",
-		"/home/mynoheart/develop/atlant/server/src/lib/util.js",
-		"/home/mynoheart/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
-		"/home/mynoheart/.config/sublime-text-3/Packages/User/JsPrettier.sublime-settings",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/p-tags/style.css",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/operations/template.hbs",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/commission/template.hbs",
-		"/home/mynoheart/develop/atlant/server/src/server-methods/get-attrs/saving-account.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/operations/component.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/lib/groups/savings-account.js",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/product-conditions/template.hbs",
-		"/home/mynoheart/develop/atlant/web-ui/app/components/groups/savings-account/accrual-payment/template.hbs"
+		"/home/mynoheart/develop/atlant/web-ui/app/components/a-popup/component.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -900,6 +908,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
+			"expandedUsers",
+			"li",
+			"div",
+			"h1",
+			"li",
+			" ",
+			" lines",
+			"50",
+			"&",
+			"@",
 			"spammer",
 			"spammers",
 			"indfunds",
@@ -1026,12 +1045,20 @@
 		"selected_items":
 		[
 			[
-				"templsp",
-				"client/app/templates/types/spammer.hbs"
+				"sty",
+				"client/app/styles/app.css"
 			],
 			[
 				"modeluser",
 				"client/app/models/user.js"
+			],
+			[
+				"serin",
+				"server/index.js"
+			],
+			[
+				"templsp",
+				"client/app/templates/types/spammer.hbs"
 			],
 			[
 				"routeap",
@@ -1528,14 +1555,6 @@
 			[
 				"routedt",
 				"web-ui/app/routes/products/edit/dates/dt.js"
-			],
-			[
-				"contrgridper",
-				"web-ui/app/controllers/products/edit/dates/dt/grid/period.js"
-			],
-			[
-				"congri",
-				"web-ui/app/controllers/products/edit/dates/dt/grid.js"
 			]
 		],
 		"width": 0.0
