@@ -182,7 +182,31 @@ async function insertCode (connection, code, msgId) {
   )
 }
 
-async function loadMessagesToDB (messages, progressCb) {
+async function loadMessagesToDB (connection, messages, progressCb) {
+  let i = 0
+  for (const msg of messages) {
+    const userId = await getUserId(connection, msg.user)
+    const msgId = await insertMsg(connection, msg, userId)
+
+    for (const l of msg.links) {
+      await insertLink(connection, l, msgId)
+    }
+
+    for (const c of msg.codes) {
+      await insertCode(connection, c, msgId)
+    }
+
+    i++
+    progressCb(`${i}/${messages.length}`)
+  }
+}
+
+(async () => {
+  const dir = path.resolve(__dirname, '..', 'chat-data')
+  const messagesFileNames = fs.readdirSync(dir).filter((n) => {
+    return /\.html$/.test(n)
+  })
+
   const connection = await mariadb.createConnection({
     host: 'db',
     user: 'root',
@@ -193,44 +217,16 @@ async function loadMessagesToDB (messages, progressCb) {
 
   await connection.query('use orel_codes')
 
-  try {
-    let i = 0
-    for (const msg of messages) {
-      const userId = await getUserId(connection, msg.user)
-      const msgId = await insertMsg(connection, msg, userId)
-
-      for (const l of msg.links) {
-        await insertLink(connection, l, msgId)
-      }
-
-      for (const c of msg.codes) {
-        await insertCode(connection, c, msgId)
-      }
-
-      i++
-      progressCb(`${i}/${messages.length}`)
-    }
-  } catch (e) {
-    throw e
-  } finally {
-    await connection.end()
-  }
-}
-
-(async () => {
-  const dir = path.resolve(__dirname, '..', 'chat-data')
-  const messagesFileNames = fs.readdirSync(dir).filter((n) => {
-    return /\.html$/.test(n)
-  })
-
   let i = 1
   for (const fileName of messagesFileNames) {
     const data = fs.readFileSync(path.resolve(dir, fileName)).toString()
     const messages = parseMessages(data)
 
-    await loadMessagesToDB(messages, (progressMsg) => {
+    await loadMessagesToDB(connection, messages, (progressMsg) => {
       console.log(`file: ${i}/${messagesFileNames.length}; msg: ${progressMsg}`)
     })
     i++
   }
+
+  await connection.end()
 })()
