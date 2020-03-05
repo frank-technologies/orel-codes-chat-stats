@@ -2,7 +2,8 @@ body {
 	width: 800px;
   margin: auto;
   padding-top: 100px;
-  font-family: "Tahoma", "Tahoma Bold";
+  /*font-family: "Tahoma Bold", "Tahoma";*/
+  font-family: "Tahoma Bold";
 }
 
 a:visited {
