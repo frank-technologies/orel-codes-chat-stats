@@ -7,7 +7,7 @@ const Qs = require('qs')
 
 const mariadb = require('mariadb')
 const pool = mariadb.createPool({
-  host: 'localhost',
+  host: 'db',
   user: 'root',
   database: 'orel_codes'
 })
@@ -180,7 +180,7 @@ const getCodes = {
 (async () => {
   const server = Hapi.server({
     port: 8080,
-    host: 'localhost',
+    host: '0.0.0.0',
     query: {
       parser: (query) => Qs.parse(query)
     }

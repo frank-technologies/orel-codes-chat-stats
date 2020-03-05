@@ -1,0 +1,5 @@
+*.sublime-project
+*.sublime-workspace
+db-data/
+chat-data/
+node_modules/

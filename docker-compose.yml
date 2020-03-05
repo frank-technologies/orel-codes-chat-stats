@@ -1,0 +1,28 @@
+version: '3'
+services:
+  db:
+    image: mysql:8
+    volumes:
+      - ./db-data/:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+  server:
+    image: node:lts-buster-slim
+    user: node
+    volumes:
+      - ./server/:/app/
+      - ./import-data:/import-data/
+      - ./chat-data:/chat-data/
+    command: bash ./run.sh
+    working_dir: /app/
+  client:
+    image: node:lts-buster-slim
+    user: node
+    ports:
+      - 4200:4200
+    volumes:
+      - ./client/:/app/
+    command: bash ./run.sh
+    working_dir: /app/

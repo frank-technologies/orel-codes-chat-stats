@@ -184,11 +184,14 @@ async function insertCode (connection, code, msgId) {
 
 async function loadMessagesToDB (messages, progressCb) {
   const connection = await mariadb.createConnection({
-    host: 'localhost',
+    host: 'db',
     user: 'root',
     password: '',
-    database: 'orel_codes'
+    multipleStatements: true
   })
+  await connection.query(fs.readFileSync('./prepare-db.sql').toString())
+
+  await connection.query('use orel_codes')
 
   try {
     let i = 0
@@ -215,7 +218,7 @@ async function loadMessagesToDB (messages, progressCb) {
 }
 
 (async () => {
-  const dir = './chat-data'
+  const dir = path.resolve(__dirname, '..', 'chat-data')
   const messagesFileNames = fs.readdirSync(dir).filter((n) => {
     return /\.html$/.test(n)
   })
